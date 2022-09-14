@@ -1,6 +1,8 @@
 <biblioteca>
-    	<ejemplar tipo_ejem="libro" titulo="XML practico" editorial="Ediciones Eni">
-        <tipo> <libro isbn="978-2-7460-4958-1" edicion="1" paginas="347"></libro> </tipo>
+    <ejemplar tipo_ejem="libro" titulo="XML practico" editorial="Ediciones Eni">
+        <tipo> 
+            <libro isbn="978-2-7460-4958-1" edicion="1" paginas="347"></libro> 
+        </tipo>
         <autor nombre="Sebastien Lecomte"></autor>
         <autor nombre="Thierry Boulanger"></autor>
         <autor nombre="Ángel Belinchon Calleja" funcion="traductor"></autor>
@@ -11,9 +13,7 @@
     </ejemplar>
     <ejemplar tipo_ejem="revista" titulo="Todo Linux 101. Virtualización en GNU/Linux" editorial="Studio Press">
         <tipo>
-            <revista>
-                <fecha_publicacion mes="abr" año="2009"></fecha_publicacion> 
-            </revista> 
+            <revista><fecha_publicacion mes="abr" año="2009"></fecha_publicacion></revista> 
         </tipo>
         <autor nombre="Varios"></autor>
         <prestado lector="Pedro Picapiedra">
